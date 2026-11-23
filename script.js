@@ -1,0 +1,1 @@
+// Smooth scrolling and lightweight interactions are handled by CSS.
