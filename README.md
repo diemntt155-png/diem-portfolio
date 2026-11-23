@@ -1,13 +1,24 @@
-# Diem Nguyen — Data Analyst Portfolio
+# Portfolio — Nguyễn Thị Thúy Diễm
 
-Responsive editorial-style portfolio using HTML, CSS and JavaScript.
+Website portfolio tiếng Việt, thiết kế responsive theo phong cách editorial tối giản.
 
-## Publish on GitHub Pages
-1. Upload `index.html`, `style.css`, and `script.js` to the root of this repository.
-2. Open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select `main` and `/(root)`, then press **Save**.
-5. After deployment, visit: https://diemntt155-png.github.io/diem-portfolio/
+## Cấu trúc
+- `index.html`: Khung nội dung và các khu vực trên website.
+- `style.css`: Giao diện, màu sắc, bố cục.
+- `script.js`: Đọc dữ liệu và hiển thị danh sách dự án.
+- `data/profile.json`: Thông tin hồ sơ cá nhân.
+- `data/projects.json`: Danh sách dự án.
 
-## Before publishing
-Replace `your.email@example.com` in `index.html` with your professional email. Review all dates and project descriptions, and add project screenshots or links when ready.
+## Cách cập nhật nội dung
+- Thêm/sửa dự án: chỉnh `data/projects.json`.
+- Thay email: chỉnh `email` trong `data/profile.json` và các liên kết email trong `index.html`.
+- Sửa phần giới thiệu, kinh nghiệm, kỹ năng: chỉnh trực tiếp nội dung tương ứng trong `index.html`.
+- Đổi giao diện: chỉnh `style.css`.
+
+## Triển khai GitHub Pages
+1. Upload toàn bộ file và thư mục trong gói này lên thư mục gốc repository.
+2. Vào Settings → Pages.
+3. Chọn Deploy from a branch → `main` → `/(root)` → Save.
+4. Website dự kiến: https://diemntt155-png.github.io/diem-portfolio/
+
+Lưu ý: thay `your.email@example.com` bằng email sử dụng công khai trước khi xuất bản.
